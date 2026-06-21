@@ -29,13 +29,6 @@ S(X,Y,Z,W) = ( f(X,Y,Z,W), f(Y,Z,W,X), f(Z,W,X,Y), f(W,X,Y,Z) )
 ## Requirements
 
 - Python 3.6+
-- No external libraries (uses only the standard library)
-
-## Usage
-
-```bash
-python3 ca_sbox_verify.py
-```
 
 ## Sample Output
 
@@ -93,8 +86,9 @@ construction is correctly reproduced.
 This implementation reproduces and verifies a construction from:
 
 > *Lightweight and Side-Channel Secure 4×4 S-Boxes from Cellular Automata Rules.*
-> [Add full citation: author(s), conference/journal, year, DOI/URL]
+> Ashrujit Ghoshal, Rajat Sadhukhan, Sikhar Patranabis, Nilanjan Datta, Stjepan Picek and Debdeep Mukhopadhyay
+> Indian Institute of Technology, Kharagpur, India
+> Delft University of Technology, The Netherlands
 
-## License
 
-[Add a license, e.g., MIT — or remove this section if not applicable]
+
